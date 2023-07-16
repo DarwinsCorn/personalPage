@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 5s;
+}
+
+.font-formatting {
+    color: hsl(0, 0%, 20%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 4s;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    opacity: 0;
+    transition: 2s;
+}
+
+.text { 
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 4s;
+    z-index: 10;
+}
+
+.click-me {
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-top: 25px;
+    line-height: -2;
+    top: 55%;
+    left: 20%;
+    translate: -50% -50%;
+    font-size: 20px;
+    color: white;
+    opacity: 0;
+    transition:  4s;
+    z-index: 11;
+}
+
+.backgrd-container {
+    display: flex;
+    height: 100vh;
+}
+
+.backgrd-left {
+    background-color: hsl(0, 0%, 50%) ;
+    width: 50vw;
+    transition: 2s;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 12;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+}
+
+#about, #projects, #resume {
+    position: absolute;
+    top: 100px;
+    left: 50vw;
+    width: 50vw;
+    opacity: 0;
+    transition: 1s;
+    z-index: 9;
+}
+
+#about > p {
+    line-height: 2;
+    padding: 20px 100px;
+}
+
+.resume-container {
+    padding: 20px 100px;
+    color: white;
+    color: hsl(0, 0%, 25%);
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
