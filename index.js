@@ -11,6 +11,7 @@ const body = document.querySelector("body");
 const fontFormat = document.querySelector(".font-formatting");
 const a = document.querySelectorAll("a");
 const sections = document.querySelectorAll("section");
+const banner = document.querySelector(".banner");
 
 let toggler = true;
 let activeSection = resume;
@@ -31,8 +32,7 @@ nameBanner.addEventListener('click', (evt) => {
     left.style.transform = toggler ? "rotate(0)" : "rotate(45deg)";
     body.style.backgroundColor = toggler ? "#d7cdc1": "white";
     fontFormat.style.color = toggler ? "white" : "black";
-    nameBanner.style.left = toggler ? "20%" : "50%";
-    clickMe.style.color = toggler ? "white" : "black";
+    nameBanner.style.left = toggler ? "0%" : "70%";
     clickMe.style.opacity = toggler ? 1 : 0;
     a.forEach(ele => {
         ele.style.color = toggler ? "white" : "black";
