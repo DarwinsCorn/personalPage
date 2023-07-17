@@ -28,7 +28,6 @@ a {
 }
 
 .banner {
-    /* border: 2px solid green; */
     position: absolute;
     top: 50%;
     left: 20%;
@@ -40,11 +39,8 @@ a {
     z-index: 10;
 }
 .text { 
-    /* border: 2px solid red; */
     position: relative;
-    /* top: 50%; */
     left: 50%;
-    /* translate: -50% -50%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,13 +49,7 @@ a {
 }
 
 .click-me {
-    /* border: 2px solid red; */
     position: relative;
-    /* margin-top: 25px; */
-    /* line-height: -2; */
-    /* top: 55%;
-    left: 20%;
-    translate: -50% -50%; */
     font-size: 20px;
     color: white;
     opacity: 0;
@@ -70,7 +60,6 @@ a {
 .backgrd-container {
     display: flex;
     height: 100vh;
-    /* width: calc(height); */
 }
 
 .backgrd-left {
