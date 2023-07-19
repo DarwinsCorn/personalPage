@@ -14,137 +14,140 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <nav>
-        <div class="menu">
-            <a id="resumeLink" href="">Resume</a>
-            <a id="projectsLink" href="">Projects</a>
-            <a id="aboutLink" href="">About</a>
+    <div class="wrapper">
+        <nav>
+            <div class="menu">
+                <a id="resumeLink" href="">Resume</a>
+                <a id="projectsLink" href="">Projects</a>
+                <a id="aboutLink" href="">About</a>
+            </div>
+        </nav>
+        <div class="backgrd-container">
+            <div id="left_panel" class="backgrd-left"></div>
         </div>
-    </nav>
-    <div class="backgrd-container">
-        <div id="left_panel" class="backgrd-left"></div>
-    </div>
-    <div class="banner">
-        <div id="name" class="text">
-            <p class="font-formatting">OMAR RAMOS</p>
+        <div class="banner">
+            <div id="name" class="text">
+                <p class="font-formatting">OMAR RAMOS</p>
+            </div>
+            <div class="click-me" >
+                <p>phone: 321-806-0269</p>
+                <p><a id="mail" href="mailto: dietrevich@gmail.com">email: dietrevich@gmail.com</a></p>
+            </div>
         </div>
-        <div class="click-me" >
-            <p class="">phone: 321-806-0269</p>
-            <p class="">email: dietrevich@gmail.com</p>
-        </div>
-    </div>
-    <section id="about">
-        <p>        
-            I am a dynamic and versatile professional with a strong skill set in JavaScript, HTML, CSS, React, and an understanding of software development practices using Git, GitHub, and VScode. With a keen eye for design and a passion for creating engaging user experiences, I excel in crafting intuitive web applications using modern frameworks like React and tools such as React Router and Vite. I continuously seek growth and improvement, and I am currently expanding my horizons by delving into Rust programming and learning about the AWS ecosystem. 
-        </p>
-        <p>
-            I'm driven to learn new things and currently have an interest in the fields of machine learning, genetic algorithms, and quantum computing. I'm eager to further my knowledge, and would like to expand my understanding of these disciplines and their practical applications. 
-        </p>  
-        <p>
-            With a solid foundation in front-end development and a willingness to learn new and emerging technologies, I'm a collaborative team player with excellent communication skills, I thrive in fast-paced, dynamic environments where creative problem-solving and adaptability are key. 
-        </p>
-        <p>
-            If given the opportunity, I am eager to leverage my existing skills, embrace new challenges, and make a significant impact by pushing new boundaries.
-        </p>
-        </p>
-    </section>
-    <section id="projects">
-        <div id="project1">
-            <h1>Invoice/Vendor webapp</h1>
-            <p>
-                A simple app created just with React, React router and Vite, without any templates for the design or main functionality. I use it as a demo where I apply things i've learned. It was built organically.
-            </p>
-            <p>
-                It uses localStorage as a simple DB. You can add vendors, invoices and delete them as well. It's also responsive to mobile formats in portrait as well as landscape modes.
-            </p>
-            <a href="https://vendorinvoiceapp.netlify.app">Invoice app site</a> <br>
-            <a href="https://github.com/DarwinsCorn/InvoiceApp">Invoice app GitHub</a>
-        </div>
-        <div id="project2">
-            <H1>Personal Landing Site (this webpage!)</H1>
-            <p>
-                This page was created also as a simple minimalistic page to showcase my skills. It was built with good 'ol HTML, JS, and CSS only. No templates were used in its construction, and very minimal JS.
-            </p>
-            <p>
-                The webpage is best viewed in a regular display 27".
-            </p>
-        </div>
-        <div id="project3">
-            <H1>AI PROJECT</H1>
-            <h1>COMING SOON!</h1>
-            <p>
-                An AI project involving Clarifai! Still in the works...
-            </p>
-        </div>
-    </section>
-    <section id="resume">
-        <div class="resume-container">
-            <h2>Skills</h2>
-            <p>
-                Excel / Google sheets
-                Pivot data and visualization
-                Data analysis
-                Microsoft Office
-                SAP experience
-                Project management
-                Clerical support
-                Web Dev
-                SQL querying
-                Javascript
-                HTML
-                CSS
-                React
-                ReactRouter
-                Git/GitHub
-                VSCode
-
-            </p>
-            <h2>Experience</h2>
-            <p>
-                <h3>Hotelbeds, Orlando, FL—Accts. Payables Supv. / Projects
-                    2012 - 2020
-                </h3>
-                <ul>
-                    <li>in charge of creating and shaping a new team to supervise over</li>
-                    <li>streamlined processes leading to a reduction in payment time processes from one full day to complete to just two hours</li>
-                    <li>trained and hired employees</li>
-                    <li>managed international accounts</li>
-                    <li>Accounts Payable side accounting from invoicing to payments in SAP</li>
-                    <li>involved in projects to transition overseas operations to local HQ</li>
-                    <li>data analysis of vendor accounting transactions</li>
-                    <li>reported to  upper management data for them evaluate and assess KPIs</li>
-                </ul>
-                <h3>
-                    HD Supply, Orlando, FL—Accts. Payables / Disbursements
-                    2006 - 2012
-                </h3>
-                <ul>
-                    <li>disbursed payments to vendors (manual checks, ACH, and bank checks)</li>
-                    <li>ran reports in Oracle and reconciled against bank reports</li>
-                    <li>created escheatment list and sent out letters</li>
-                    <li>liaise with bank contacts</li>
-                    <li>maintain dealt with fraudulent check transactions</li>
-                    <li>organized check run schedule and procedures for disbursements</li>
-                    <li>dealt with confidential information pertaining garnishments</li>
-                    <li>trained employees (including Supervisor) in the disbursements area</li>
-                    <li>lectured on the workflow processes of disbursements</li>
-                    <li>accounting functions ie. vendor setup, invoicing, etc.</li>
-                </ul>
-            </p>
-            <h2>Projects</h2>
-                <h3>
-                    Hotelbeds, Accounts Write-Off/Clean Up — clean up of legacy accounts
-                </h3>
+        <div class="sections-container">
+            <section id="about">
+                <h1>About me</h1>
                 <p>
-                    Cleaned up legacy accounts that were destined to be written off to minimize loss of around $4 million to $1 million. Data analysis was performed on old Excel data together with follow up on vendors and previous managers of the data to consolidate, validate and clean up matching transactions.
+                    I am a dynamic and versatile professional with a strong skill set in JavaScript, HTML, CSS, React, and an understanding of software development practices using Git, GitHub, and VScode. With a keen eye for design and a passion for creating engaging user experiences, I excel in crafting intuitive web applications using modern frameworks like React and tools such as React Router and Vite. I continuously seek growth and improvement, and I am currently expanding my horizons by delving into Rust programming and learning about the AWS ecosystem.
                 </p>
-                <h3>
-                    Hotelbeds,  Department Streamlining — organized and consolidated a dept.
-                </h3>
                 <p>
-                    Streamlined process in order to fix existing issues after the department transition to HQ, such as delay response to vendors, lack of reliable information on the accounts and an outdated and non performant disbursement protocol. Sat with current analysts and communicated with the previous Director to understand what had been the flow of work  and rid unnecessary processes and evaluate how to effectively increase efficiencies. The first realizable gains came from reducing the time it took to run the disbursement process to vendors from a full day to just 2 hours. We also engaged in a campaign to update vendor contact information and trained them to get paid on a less frequent schedule. Eventually we were able to run the disbursement process through SAP as everything had been carried on before from Excel sheets.
+                    I'm driven to learn new things and currently have an interest in the fields of machine learning, genetic algorithms, and quantum computing. I'm eager to further my knowledge, and would like to expand my understanding of these disciplines and their practical applications.
                 </p>
+                <p>
+                    With a solid foundation in front-end development and a willingness to learn new and emerging technologies, I'm a collaborative team player with excellent communication skills, I thrive in fast-paced, dynamic environments where creative problem-solving and adaptability are key.
+                </p>
+                <p>
+                    If given the opportunity, I am eager to leverage my existing skills, embrace new challenges, and make a significant impact by pushing new boundaries.
+                </p>                
+            </section>
+            <section id="projects">
+                <div id="project1">
+                    <h1>Invoice/Vendor webapp</h1>
+                    <p>
+                        A simple app created just with React, React router and Vite, without any templates for the design or main functionality. I use it as a demo where I apply things i've learned. It was built organically.
+                    </p>
+                    <p>
+                        It uses localStorage as a simple DB. You can add vendors, invoices and delete them as well. It's also responsive to mobile formats in portrait as well as landscape modes.
+                    </p>
+                    <a href="https://vendorinvoiceapp.netlify.app">Invoice app site</a> <br>
+                    <a href="https://github.com/DarwinsCorn/InvoiceApp">Invoice app GitHub</a>
+                </div>
+                <div id="project2">
+                    <H1>Personal Landing Site (this webpage!)</H1>
+                    <p>
+                        This page was created also as a simple minimalistic page to showcase my skills. It was built with good 'ol HTML, JS, and CSS only. No templates were used in its construction, and very minimal JS.
+                    </p>
+                    <p>
+                        The webpage is best viewed in a regular display 27".
+                    </p>
+                </div>
+                <div id="project3">
+                    <H1>AI PROJECT</H1>
+                    <h1>COMING SOON!</h1>
+                    <p>
+                        An AI project involving Clarifai! Still in the works...
+                    </p>
+                </div>
+            </section>
+            <section id="resume">
+                <div class="resume-container">
+                    <h2>Skills</h2>
+                    <p>
+                        Excel / Google sheets
+                        Pivot data and visualization
+                        Data analysis
+                        Microsoft Office
+                        SAP experience
+                        Project management
+                        Clerical support
+                        Web Dev
+                        SQL querying
+                        Javascript
+                        HTML
+                        CSS
+                        React
+                        ReactRouter
+                        Git/GitHub
+                        VSCode
+                    </p>
+                    <h2>Experience</h2>
+                    <p>
+                        <h3>Hotelbeds, Orlando, FL—Accts. Payables Supv. / Projects
+                            2012 - 2020
+                        </h3>
+                        <ul>
+                            <li>in charge of creating and shaping a new team to supervise over</li>
+                            <li>streamlined processes leading to a reduction in payment time processes from one full day to complete to just two hours</li>
+                            <li>trained and hired employees</li>
+                            <li>managed international accounts</li>
+                            <li>Accounts Payable side accounting from invoicing to payments in SAP</li>
+                            <li>involved in projects to transition overseas operations to local HQ</li>
+                            <li>data analysis of vendor accounting transactions</li>
+                            <li>reported to  upper management data for them evaluate and assess KPIs</li>
+                        </ul>
+                        <h3>
+                            HD Supply, Orlando, FL—Accts. Payables / Disbursements
+                            2006 - 2012
+                        </h3>
+                        <ul>
+                            <li>disbursed payments to vendors (manual checks, ACH, and bank checks)</li>
+                            <li>ran reports in Oracle and reconciled against bank reports</li>
+                            <li>created escheatment list and sent out letters</li>
+                            <li>liaise with bank contacts</li>
+                            <li>maintain dealt with fraudulent check transactions</li>
+                            <li>organized check run schedule and procedures for disbursements</li>
+                            <li>dealt with confidential information pertaining garnishments</li>
+                            <li>trained employees (including Supervisor) in the disbursements area</li>
+                            <li>lectured on the workflow processes of disbursements</li>
+                            <li>accounting functions ie. vendor setup, invoicing, etc.</li>
+                        </ul>
+                    </p>
+                    <h2>Projects</h2>
+                        <h3>
+                            Hotelbeds, Accounts Write-Off/Clean Up — clean up of legacy accounts
+                        </h3>
+                        <p>
+                            Cleaned up legacy accounts that were destined to be written off to minimize loss of around $4 million to $1 million. Data analysis was performed on old Excel data together with follow up on vendors and previous managers of the data to consolidate, validate and clean up matching transactions.
+                        </p>
+                        <h3>
+                            Hotelbeds,  Department Streamlining — organized and consolidated a dept.
+                        </h3>
+                        <p>
+                            Streamlined process in order to fix existing issues after the department transition to HQ, such as delay response to vendors, lack of reliable information on the accounts and an outdated and non performant disbursement protocol. Sat with current analysts and communicated with the previous Director to understand what had been the flow of work  and rid unnecessary processes and evaluate how to effectively increase efficiencies. The first realizable gains came from reducing the time it took to run the disbursement process to vendors from a full day to just 2 hours. We also engaged in a campaign to update vendor contact information and trained them to get paid on a less frequent schedule. Eventually we were able to run the disbursement process through SAP as everything had been carried on before from Excel sheets.
+                        </p>
+                </div>
+            </section>
         </div>
-    </section>    
+    </div>
 </body>
 </html>

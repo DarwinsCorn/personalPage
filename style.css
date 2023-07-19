@@ -57,6 +57,10 @@ a {
     z-index: 11;
 }
 
+#mail {
+    font-size: 15px;
+}
+
 .backgrd-container {
     display: flex;
     height: 100vh;
@@ -81,7 +85,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 50vw;
+    width: 50vw;    
 }
 
 #about, #projects, #resume {
@@ -97,6 +101,10 @@ nav {
 #about > p {
     line-height: 2;
     padding: 0px 100px;
+}
+
+#about >h1  {
+    padding:  0px 100px;
 }
 
 .resume-container {
@@ -123,4 +131,41 @@ nav {
     border: 2px dotted green;
     width: 80%;
 }
+
+@media screen and (width < 1190px) {
+    .backgrd-container, .backgrd-left {
+        width: 100%;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .sections-container {
+        position: relative;
+        top: 100px;
+        width: 100%;
+    }
+    .menu {
+        width: 100%;
+        background-color: hsl(0, 0%, 50%);
+    }
+
+    #about, #projects, #resume {
+        left: 0;
+        width: 100%;
+        top: -25px;
+    }
+    .banner {
+        left: 0;
+    }
+    .click-me {
+        left: 50%;
+    }
+    #about > p, #about > h1, #project1, #project2, #project3, .resume-container {
+       padding: 0px 15px;
+   }
+}
+
+
+
 
